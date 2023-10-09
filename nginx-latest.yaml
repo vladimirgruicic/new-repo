@@ -6,7 +6,7 @@ spec:
   replicas: 1  # Number of Nginx replicas you want
   selector:
     matchLabels:
-      app: alpine
+      app: new-repo-deployment
   template:
     metadata:
       labels:
